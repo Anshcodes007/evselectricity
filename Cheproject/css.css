@@ -1,0 +1,133 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Create a header with a background color, padding, and text styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the main content container */
+.main-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Create a simple navigation menu */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style a call-to-action (CTA) button */
+.cta-button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #ff3300;
+}
+
+/* Style a simple footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Add some styles for responsive design */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  nav {
+    display: block;
+  }
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .cta-button {
+    display: block;
+    margin: 10px auto;
+  }
+}
+.c2{
+
+  background-color:rgba(211, 211, 211, 0.863);
+  color:#333;
+  padding: 20px;
+  text-align: center;
+
+}
+header.c3{
+  background-color:rgb(157, 100, 237);
+  color:rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+header.c4{
+  text-align: center;
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  padding: 20px;
+  
+}
+.search-container {
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+}
+@media (max-width: 600px) {
+  .search-container {
+    flex-direction: column;
+  }
+  
+  input[type="text"], button[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
